@@ -46,7 +46,7 @@ module.exports = {
                     html += `
                     <article>
                     <h2>${post.title}</h2>
-                    <img src="/${post.image}" alt="${post.title}">
+                    <img width="500" src="/${post.image}" alt="${post.title}">
                     <p>${post.content}</p>
                     <h4>Tags:</h4>
                     <ul>
